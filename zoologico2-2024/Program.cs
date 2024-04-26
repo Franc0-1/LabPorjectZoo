@@ -12,10 +12,13 @@ namespace zoologico2_2024
 
             Animal a = new Animal("Leon", "Felino", "Carne");
 
-            
+            Cuidador c = new Cuidador(56565);
+            c.nombre = "Pablo";
+            c.legajo = 234353;
 
-            z.AgregarAnimal(new ave("Agila", "Ave", "carne"));
-            z.AgregarAnimal(new mamifero("Elefante", "Paquidermo", "pasto"));
+
+
+           
             z.AgregarAnimal(new mamifero("Hiena", "Hiena", "carne"));
             z.AgregarAnimal(new pez("Tiburon", "Pez", "Carne"));
             z.AgregarAnimal(new PlantaCarnivora("planta carnivora", "Planta", "Carne"));
