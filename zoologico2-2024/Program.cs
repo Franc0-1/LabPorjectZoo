@@ -12,9 +12,6 @@ namespace zoologico2_2024
 
             Animal a = new Animal("Leon", "Felino", "Carne");
 
-            Cuidador c = new Cuidador(56565);
-            c.nombre = "Pablo";
-            c.legajo = 234353;
 
 
 
